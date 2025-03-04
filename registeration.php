@@ -16,7 +16,7 @@ include 'connection.php';
 
     <div class="container">
         <div class="row">
-            <h2 class="text-center mt-5 mb-5">Registeration Form</h2>
+            <h2 class="text-center mt-5 mb-5 text-info">Registeration Form</h2>
             <div class="col-md-6 mb-5">
                 <form action="" method="post">
                     <label for="" class="label-form">Name</label>
@@ -27,6 +27,7 @@ include 'connection.php';
                     <input type="password" name="password" class="form-control" placeholder="enter your password">
                     <br>
                     <input type="submit" name="submit" class="btn btn-primary">
+                    <a href="login.php" class="btn btn-warning">Login</a>
                 </form>
             </div>
         </div>

@@ -17,7 +17,7 @@
 <body>
 <div class="container">
         <div class="row">
-            <h2 class="text-center mt-5 mb-5">Login Form</h2>
+            <h2 class="text-center mt-5 mb-5 text-success">Login Form</h2>
             <div class="col-md-6 mb-5">
              <form method="post">
                     <label for="" class="label-form">Email</label>
@@ -26,6 +26,7 @@
                     <input type="password" name="password" class="form-control" placeholder="enter your password">
                     <br>
                     <input type="submit" name="login" class="btn btn-primary">
+                    <a href="registeration.php" class="btn btn-warning">Register</a>
                 </form>
             </div>
         </div>
